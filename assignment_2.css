@@ -1,0 +1,274 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  color: #192f60;
+}
+
+/* Home Page Banner */
+.homepage-banner {
+  height: 500px;
+  width: 100%;
+  border: 2px solid black;
+  background: url(https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/foodmunch-banner-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.homepage-content {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.homepage-logo-background {
+  height: 100px;
+  width: 100px;
+  background-color: #eee;
+  border-radius: 80px;
+  position: relative;
+  z-index: 50;
+}
+
+.homepage-logo {
+  position: relative;
+  margin: 2px;
+  padding-left: 15px;
+  padding-bottom: px;
+  z-index: 30;
+}
+
+.homepage-logo svg {
+  height: 100px;
+  width: 60px;
+  stroke: #eb2929;
+  fill: #eb2929;
+}
+
+/* Homepage Header */
+
+.homepage-header-1 {
+  text-align: center;
+  color: #eee;
+  font-size: 40px;
+  font-weight: 25px;
+  margin-top: 15px;
+}
+
+/* Homepage Input Form */
+
+.homepage-form-begin {
+  height: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.homepage-form {
+  height: 60px;
+  width: 750px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.homepage-input-group {
+  height: 50px;
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.homepage-form-select:focus {
+  border-color: transparent !important;
+  box-shadow: none !important;
+}
+
+.homepage-form-input:focus {
+  border-color: transparent !important;
+  box-shadow: none !important;
+}
+
+.homepage-form svg {
+  height: 30px;
+  width: 40px;
+}
+
+.homepage-location-icon {
+  height: 2em;
+  width: 30px;
+}
+
+.homepage-location-btn {
+  float: right;
+}
+
+.homepage-location-btn:active {
+  border: none;
+  border-radius: none;
+}
+
+.homepage-location-btn:hover {
+  border: none;
+  border-radius: none;
+}
+
+.homepage-search-icon {
+  height: 1em;
+  width: 10px;
+}
+
+.homepage-location-button {
+  width: 180px;
+}
+
+/* Navbar */
+nav {
+  height: 80px;
+  background-color: transparent;
+}
+
+.nav-logo {
+  padding-left: 25px;
+  float: left;
+}
+
+.nav-logo svg {
+  height: 76px;
+  width: 50px;
+  stroke: rgba(0, 0, 0, 0.227);
+  fill: rgba(255, 255, 255, 0.907);
+}
+
+.nav-list-item {
+  float: right;
+  margin-right: 75px;
+  margin-top: 17px;
+}
+.nav-list-item li {
+  float: left;
+  padding: 13px 13px;
+  font-size: 18px;
+  border-radius: 3px;
+  list-style-type: none;
+}
+.nav-list-item li a {
+  color: rgba(255, 255, 255, 0.907);
+  text-decoration: none;
+}
+.nav-list-item li:hover {
+  border: 1px solid rgba(255, 255, 255, 0.907);
+  border-radius: 5px;
+}
+
+/* Quick Search Section */
+.quicksearch-section {
+  width: 100%;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.quicksearch-title {
+  font-size: 40px;
+  font-weight: 25px;
+  padding-left: 120px;
+  letter-spacing: none;
+}
+
+.quicksearch-content {
+  font-size: 22px;
+  padding-left: 145px;
+  letter-spacing: 0px;
+}
+
+/* Homepage Card */
+.homepage-card {
+  margin-top: 100px;
+  margin-right: 50px;
+  height: 300px;
+  width: 350px;
+  border-color: #343a40;
+  box-shadow: 0px 3px 6px #00000029;
+}
+
+.homepage-card:last-child {
+  margin-right: none;
+}
+
+.homepage-image {
+  height: 200px;
+  width: 350px;
+  background-size: cover;
+  border-radius: 15px 15px 0px 0px;
+}
+
+.homepage-card-heading {
+  padding-left: 15px;
+  padding-top: 3px;
+  text-align: center;
+}
+
+.homepage-card-sub-heading {
+  padding-left: 15px;
+  text-align: center;
+}
+
+/* Footer */
+footer {
+  width: 100%;
+  text-align: center;
+  background-color: rgba(41, 43, 43, 0.155);
+  padding: 25px;
+  margin-top: 80px;
+}
+
+.header-6 {
+  font-family: "Oswald", sans-serif;
+  font-size: 20px;
+}
+
+.para-footer {
+  font-family: "Oswald", sans-serif;
+  font-size: 15px;
+}
+
+footer a:active {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+footer a:hover {
+  text-decoration: none;
+}
+
+footer svg {
+  height: 40px;
+  width: 30px;
+  margin: 4px;
+}
+
+.footer-codepen-icon {
+  height: 40px;
+  width: 35px;
+  stroke: #192f60;
+  fill: #192f60;
+}
+
+/* MediaQuery */
+@media only screen and (max-width: 576px) {
+  .quicksearch-title {
+    padding-left: 10px;
+  }
+
+  .quicksearch-content {
+    padding-left: 15px;
+  }
+}
